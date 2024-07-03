@@ -8,12 +8,12 @@
                         <i class="fa fa-users"></i>
                         <p>
                        
-                       80 Utilisateurs </p>
+                       80 Users </p>
                     </div>
                     <div class="item_global_view">
                         <i class="glyphicon glyphicon-list-alt"></i>
                         <p>
-                     10 blogs </p>
+                     10 Reports </p>
                     </div>
                     <div class="item_global_view">
                         <i class="fa fa-comments"></i>
@@ -21,12 +21,8 @@
                         10 commentaires </p>
                     </div>
                     <div class="item_global_view">
-                        <i class="glyphicon glyphicon-book"></i>
-                        <p>10 Actualités </p>
-                    </div>
-                    <div class="item_global_view">
                         <i class="glyphicon glyphicon-list-alt"></i>
-                        <p>10 Categories </p>
+                        <p>10 Contacts </p>
                     </div>
                     
                     

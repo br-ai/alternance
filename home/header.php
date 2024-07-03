@@ -50,9 +50,8 @@
       <ul class="nav nav-pills nav-stacked">
         <li><a href="home.php" class="active"><i class="glyphicon glyphicon-flash"></i> Dashboard</a></li>
         <li><a href="users.php"><i class="glyphicon glyphicon-user"></i> Users</a></li>
-        <li><a href="blog.php"><i class="glyphicon glyphicon-list-alt"></i> Blogs</a></li>
-        <li><a href="actualites.php"><i class="glyphicon glyphicon-book"></i> Actualités</a></li>
-        <li><a href="category.php"><i class="glyphicon glyphicon-book"></i> Categories</a></li>
+        <li><a href="blog.php"><i class="glyphicon glyphicon-list-alt"></i> Reports</a></li>
+        <li><a href="actualites.php"><i class="glyphicon glyphicon-book"></i> Contacts</a></li>
         <li><a href="actions.php"><i class="glyphicon glyphicon-briefcase"></i> Actions</a></li>
         
       </ul>
