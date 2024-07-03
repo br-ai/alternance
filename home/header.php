@@ -68,8 +68,8 @@
 	   <div class="row">
             <!-- center left-->	
          	<div class="col-md-12">
-			  <div class="well">
+			  <!-- <div class="well">
 
-        </div>
+        </div> -->
               
               <hr>
