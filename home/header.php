@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
-    <link rel="icon" href="../img/logo.png">
+    <link rel="icon" href="shared_logo.png">
 </head>
 <body>
     
@@ -19,14 +19,14 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-toggle"></span>
       </button>
-      <a class="navbar-brand" href="home.php"><img src="../img/logo.png" class="img-logo" alt="logo PoleIt"></a>
+      <a class="navbar-brand" href="home.php"><img src="shared_logo.png" class="img-logo" alt="logo scc"></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         
         <li class="dropdown">
           <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
-            <i class="glyphicon glyphicon-user"></i> <?php echo $user['username']?> </a>
+            <i class="glyphicon glyphicon-user"></i> brondon</a>
           <ul id="g-account-menu" class="dropdown-menu" role="menu">
             
           </ul>
@@ -44,7 +44,7 @@
   <div class="row">
     <div class="col-md-3">
       <!-- left -->
-      <a href="#"><strong><i class="glyphicon glyphicon-briefcase"></i> <?php echo $user['username']?></strong></a>
+      <a href="#"><strong><i class="glyphicon glyphicon-briefcase"></i> brondon</strong></a>
       <hr>
       
       <ul class="nav nav-pills nav-stacked">
