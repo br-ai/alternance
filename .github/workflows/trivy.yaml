@@ -1,0 +1,40 @@
+name: trivy scan
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-scan:
+    name: Build and Scan Docker Image with Trivy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Build Docker image
+      run: |
+        docker build -t scc:latest .
+
+    - name: Run Trivy vulnerability scan
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: scc:latest
+        format: sarif
+        output: trivy-results.sarif
+        severity: HIGH,CRITICAL
+
+    - name: Upload Trivy SARIF Report
+      uses: github/codeql-action/upload-sarif@v2
+      with:
+        sarif_file: trivy-results.sarif
+
+    - name: Upload Trivy scan results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: trivy-results
+        path: trivy-results.sarif

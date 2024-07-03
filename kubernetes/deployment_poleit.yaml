@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pole-it
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pole-it
+  template:
+    metadata:
+      labels:
+        app: pole-it
+    spec:
+      containers:
+        - name: pole-it
+          image: clement28/projet_fa:9.0
+          ports:
+            - containerPort: 80
